@@ -1,6 +1,7 @@
 import React from 'react'
 import { About, Plan, Testimonials, Work, Header, Footer } from './container'
 import Navbar from './components/Navbar'
+
 const App = () => {
   return (
     <div className='app pt-4'>
@@ -11,6 +12,8 @@ const App = () => {
       <Plan />
       <Testimonials />
       <Footer />
+      
+
     </div>
   )
 }
